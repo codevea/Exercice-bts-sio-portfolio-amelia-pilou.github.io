@@ -9,6 +9,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/cv.css" rel="stylesheet">
         <link rel="icon" href="favicon.ico">
         <title>Exercice BTS SIO - Portfolio d'Amélia Pilou </title>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" defer integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -16,8 +17,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" defer integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
     </head>
     <body>
-        
-    <!-- Emplacement du menu de navigation principal -->
+
+        <!-- Emplacement du menu de navigation principal -->
         <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
             <div class="container">
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
@@ -115,33 +116,29 @@
 
         <!-- Emplacement pour le contenu principal de la page -->
         <div class="jumbotron">
-            <h1 class="mt-4 mb-3">Bonjour et bienvenu sur mon portfolio !</h1>
-            
-            <!-- Alerte permettant d'informer les visiteurs que ce site est un exercice effectué au cours du cursus d'apprentissage du BTS SIO -->
-            <div class="alert alert-warning border mt-4 mb-4" role="alert">
-                Exercice guidé B1.4 Séquence 2 du BTS SIO : Participer à un projet de développement d'un service en utilisant des méthodes agiles de gestion de projet
-                <ul>
-                    <li>Utilisation de l'IDE NetBeans avec mise en pratique du suivi de projet (kanban de GitHub).</li>
-                    <li>Mise en forme du style du site avec Bootstrap (version 4).</li>
-                </ul>
-            </div>
-            
-            
-            <div class="mb-3">
-                <img class="rounded float-left img-thumbnail" src="images/AmeliaPilou.jpg" alt="Photo de profil de Amelia Pilou">
-            </div>
+            <div class="container">
+                <div class="row cadreCV">
+                    <div id="cv-entete" class="text-center">
+                        <div id="cv-photo">
+                            <img src="../images/AmeliaPilou.jpg" alt="Ma photo d'identité">
+                        </div>
+                        <!-- Alerte permettant d'informer les visiteurs que ce site est un exercice effectué au cours du cursus d'apprentissage du BTS SIO -->
+                        <div class="alert alert-warning border m-3 text-left" role="alert">
+                            Exercice guidé B1.4 Séquence 2 du BTS SIO : Participer à un projet de développement d'un service en utilisant des méthodes agiles de gestion de projet
+                            <ul>
+                                <li>Utilisation de l'IDE NetBeans avec mise en pratique du suivi de projet (kanban de GitHub).</li>
+                                <li>Mise en forme du style du site avec Bootstrap (version 4).</li>
+                            </ul>
+                        </div>
+                        <div id="cv-intro">
+                            <h1>Bonjour, je m'appelle <span class="bg-red">Amélia</span> et voici mon CV</h1>
 
-            <div class="card mb-3 bg-transparent border-0">
-                <div class="card-body">
-                    <p class="card-text">
-                        Je m'appelle Amélia Pilou, j'ai 21 ans et ce site à pour vocation de me présenter en tant que personne, en tant qu'étudiante et candidate à l'obtention du BTS SIO (Service Informatiques aux Organisations) et en tant que future professionnelle de l'informatique.
-                    </p>
-                    <p class="mb-3">
-                        <a class="btn btn-primary" href="#" role="button">En savoir plus »</a>
-                    </p>
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div> 
 
 
@@ -199,3 +196,4 @@
         </footer>
     </body>
 </html>
+
